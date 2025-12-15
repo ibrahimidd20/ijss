@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact Us | IbraJustSS LLC</title>
+  
+  <meta name="description" content="Contact Ibra Just Security Services or request a custom security quote. Professional guard services, event security, and mobile patrols."/>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" />
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="nav-container">
+    
+    <a href="index.html">
+    <img src="assets/images/ijss_logo.png" alt="Ibra Just Security Services Logo" class="logo-img"/>
+    </a> 
+
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html" class="active">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Contact Us & Request a Quote</h1>
+    <p>Get in touch with us today and lets discuss your security needs.</p>
+  </div>
+</section>
+
+<!-- Contact / Quote Form -->
+<section>
+  <div class="container">
+    <div class="contact-direct">
+
+    <div class="section-title">
+
+  <h3>Speak Directly With Us</h3>
+  <p>
+    For immediate assistance or urgent security needs, call us directly:
+  </p>
+
+    <p id="call-status-note" class="call-status"></p>
+
+    <a href="tel:+9174502743" class="call-button" onclick="handleCallClick()">
+       <strong> 📞 (917) 450-2743</strong>
+    </a>
+
+    <p class="contact-email">
+        Email us at:
+        <strong><a href="mailto:info@ibrajustss.com">info@ibrajustss.com</a></strong>
+    </p>
+
+    <p> Or use the form provided below to get in touch with us.</p>
+    </div>
+
+      <h2>Request a Free Quote Now</h2>
+
+      <p>
+        You can reach us directly by email or via our provided phone number.
+        
+      </p>
+    </div>
+
+  
+
+    <form class="contact-form" id="quoteForm">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="phone" name="phone" placeholder="Phone Number" required />
+
+      <select name="service" required>
+        <option value="">Select Service</option>
+        <option>Security Guard Services</option>
+        <option>Event Security</option>
+        <option>Mobile Patrol</option>
+        <option>Access Control & Monitoring</option>
+        <option>Loss Prevention</option>
+        <option>24/7 Security Support</option>
+      </select>
+
+      <select name="urgency" required>
+        <option value="">Urgency Level</option>
+        <option value="Immediate (24-48 hrs)">Immediate (24–48 hrs)</option>
+        <option value="Within 7 Days From Now">Within 7 Days From Now</option>
+        <option value="Planning Phase">Planning Phase</option>
+      </select>
+
+      <textarea
+        name="details"
+        rows="5"
+        placeholder="Describe your security needs"
+        required
+      ></textarea>
+
+      <button type="submit">Submit Quote Request</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>
+    &copy; 2025 <span>IbraJustSS</span> — Ibra Just Security Services |
+    <a href="mailto:info@ibrajustss.com">info@ibrajustss.com</a> | (917) 450-2743.
+  </p>
+</footer>
+
+<!-- Quote Logic -->
+<script src="assets/js/quote.js"></script>
+
+<script src="assets/js/call.js"></script>
+
+</body>
+</html>
